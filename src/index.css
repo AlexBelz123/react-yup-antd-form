@@ -1,13 +1,123 @@
 body {
-  margin: 0;
+  background: #0e101c;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  color: white;
+  padding: 0 20px 100px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+hr {
+  border: 1px solid #333;
+  margin: 40px 0;
+}
+
+.h1 {
+  margin-top: 80px;
+  color: white;
+  font-size: 25px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgb(79, 98, 148);
+}
+
+.form {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.p {
+  color: #bf1650;
+  text-align: center;
+}
+
+.input {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid white;
+  color: black;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+section {
+  margin-top: 20px;
+}
+
+.label,
+section > label {
+  text-align: left;
+  display: block;
+  margin-bottom: 13px;
+  font-size: 14px;
+  font-weight: 200;
+}
+
+input {
+  color: black;
+}
+
+.button {
+  background: #ec5990;
+  text-transform: uppercase;
+  border: none;
+  margin-top: 40px;
+  padding: 20px;
+  font-size: 16px;
+  font-weight: 100;
+  letter-spacing: 10px;
+  display: block;
+  appearance: none;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.buttonBlack {
+  background: black;
+  border: 1px solid white;
+}
+
+.App {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.counter {
+  font-weight: 400;
+  background: white;
+  color: black;
+  padding: 10px 15px;
+  border-radius: 4px;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 9999999;
+  border: 1px solid rgb(79, 98, 148);
+  box-shadow: 0 0 4px rgb(79, 98, 148);
+}
+
+.generic {
+  display: flex;
+  align-items: center;
+  border: 2px solid #000;
+  margin-bottom: 15px;
+  padding: 20px;
+  border-radius: 3px;
+}
+
+.generic label {
+  display: inline-block;
+  word-wrap: normal;
+}
+
+.generic .ant-select {
+  display: block;
 }
